@@ -131,7 +131,7 @@ hr{
     top: 0;
     width: 25%;
     height: 100vh;
-    border-right: solid 4px rgb(51, 54, 53, .8);
+    border-right: solid 3px rgb(51, 54, 53, .8);
 }
 
 /* stling for static side */

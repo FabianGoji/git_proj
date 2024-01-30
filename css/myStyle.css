@@ -5,12 +5,12 @@
 }
 
 html, body{
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(82, 82, 82);
     font-family: 'Poppins', 'Futura' 'Geneva', sans-serif;
     justify-content: center;
     align-items: center;
     height: auto;
-    color: rgb(25, 25, 25);
+    color: rgb(229, 229, 229);
     text-align: left;
     margin: 0;
     padding: 0;
@@ -19,12 +19,12 @@ html, body{
 a:link{
     text-decoration: underline;
     text-underline-offset: 2px;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 a:visited{
     text-decoration: none;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 a:hover{
@@ -53,21 +53,21 @@ h1{
     font-family: 'Poppins';
     font-size: 2.25em;
     font-weight: 500;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 h2{
     font-family: 'Poppins';
     font-size: 1.75em;
     font-weight: 500;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 h3{
     font-family: 'Poppins';
     font-size: 1.5em;
     font-weight: 500;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 p{
@@ -75,12 +75,12 @@ p{
     font-size: 1.25em;
     font-weight: 300;
     line-height: 1.5em;
-    color:rgb(51, 54, 53, .8);
+    color:rgb(229, 229, 229);
 }
 
 /* ---------- Special characters & symbols -------- */
 hr{
-    border: solid 2px rgb(51, 54, 53, .8);
+    border: solid 2px rgb(229, 229, 229);
     width: 100%;
 }
 
@@ -144,7 +144,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-size: 2.25em;
     font-weight: 500;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 .toc_head{
@@ -193,7 +193,7 @@ hr{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 1.25em;
-    color: rgb(51, 54, 53, .8);
+    color: rgb(229, 229, 229);
 }
 
 
@@ -263,10 +263,10 @@ hr{
     padding: 3vh 2vw;
     margin: 3vh 0;
     gap: 2vw;
-    background-color: rgb(229, 229, 229);
-    box-shadow: rgb(160, 160, 160) 2px 2px 5px 0px;
+    background-color: rgb(123, 123, 123);
+    box-shadow: rgb(40, 40, 40) 2px 2px 5px 0px;
     p{
-        color: rgb(51, 54, 53, .8);
+        color: rgb(229, 229, 229);
     }
 
     ol li{
@@ -291,7 +291,7 @@ hr{
         font-size: 1.25em;
         font-weight: 300;
         line-height: 1.75em;
-        color: rgb(51, 54, 53, .8);
+        color: rgb(229, 229, 229);
     }
 }
 
@@ -303,20 +303,20 @@ iframe{
 }
 
 .green_type{
-    color: green;
+    color: rgb(114, 219, 114);
 }
 
 .git_color{
-    color:#fe661f;
+    color:#fd8045;
     font-weight: 600;
 }
 
 .vs_color{
-    color:#2466ff;
+    color:#4d83ff;
     font-weight: 600;
 }
 
 .gh_color{
-    color: rgb(93, 13, 212);
+    color: rgb(166, 109, 251);
     font-weight: 600;
 }

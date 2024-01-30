@@ -11,10 +11,10 @@
         <!-- left-hand section, does not scroll -->
         <section class="static_col">
             <div class="site_title">
-                Git and VS
+               <span class="git_color">Git </span>&nbsp;and&nbsp;<span class="vs_color"> VS</span>
             </div>
             <div class="site_description">
-                Reference sheet for Git and VS Code related questions.
+                A Reference sheet for Git and VS Code related questions.
             </div>
             <br>
             <div class="toc_head">
@@ -31,7 +31,7 @@
                     <h3><a href="#clone_repos">Clone your Repsository in VS</a></h3>
                 </div>
                 <div class="toc_content">
-                    <h3><a href="#branching">Branching in VS</a></h3>
+                    <h3><a href="#branching">Branching with VS Code</a></h3>
                 </div>
                 <div class="toc_content">
                     <h3><a href="#commit_changes">Commit changes to File&lpar;s&rpar;</a></h3>
@@ -52,10 +52,10 @@
         <section class="scroll_col">
 
             <div class="wide_block">
-                <h1>What are they?</h1>
+                <h1>Before Anything...</h1>
                 <br>
                 <p>
-                    First, we have to understand what Git and VS Code is, so let's start with a quick breakdown of what each is and why they are important.
+                    We have to understand what Git and VS Code is, so let's start with a quick breakdown of what each is and why they are important.
                 </p>
             </div>
             <!-- understanding Git -->
@@ -67,16 +67,9 @@
                     <h3>What is it?</h3>
                     <br>
                     <p>
-                        The most popular version control system &lpar;VCS&rpar;, free and open source. This means it manages the changes to source code.
-                    </p>
-                    <br>
-                    <h3>What's special about it?</h3>
-                    <br>
-                    <p>
-                        Through Git's branching model, you can easily create, merge, and delete multiple branches independent of each other, local or remote.
-                    </p>
-                    <p>
-                        This allows for multiple workflows on a single project that can be implemented seamlessly. Additionally, its distributed nature means that the number of workflows can be unlimited.
+                        Git is a version control system that developers use to manage and track changes in their code. It allows multiple people to work on the same project simultaneously without interfering with each other, 
+                        by creating and merging branches and handling conflicts. Git stores a history of all changes made to the project, enabling developers to revert to previous versions if necessary and to see who made which 
+                        changes and when. This makes it an essential tool for collaborative coding and managing complex projects.
                     </p>
                 </div>
 
@@ -91,13 +84,9 @@
                     <h3>What is it?</h3>
                     <br>
                     <p>
-                        A lightweight source code editor that runs on your desktop. It has built-in support for JavaScript, typeScript and Node.js, and has a rich library of extensions for other languages and tools.
-                    </p>
-                    <br>
-                    <h3>What's special about it?</h3>
-                    <br>
-                    <p>
-                        Along with an intuitive UI, VS code provides code completion tools, enahnced editing capability, easy navigation within code, and version control support through Git integration.
+                        Visual Studio Code (VS Code) is a powerful and versatile code editor used by developers for writing, editing, and debugging code. It supports a wide range of programming languages 
+                        and comes with features like syntax highlighting, code completion, and integrated Git control, making coding more efficient and less error-prone. VS Code also offers a vast library 
+                        of extensions, allowing developers to customize their environment with additional tools and features to suit their specific needs, enhancing productivity in software development.
                     </p>
                 </div>
 
@@ -121,7 +110,12 @@
                 <div class="topic_body">
                     <h3>What is a Repository?</h3>
                     <br>
-                    <p>explain what it is</p>
+                    <p>
+                        A repository on GitHub is like a special folder for a project. It's where all the files, documents, and information related to that project are kept. 
+                        Think of it as a digital library bookshelf, where each book &lpar;or repository&rpar; holds all the pages &lpar;files&rpar; for one topic &lpar;project&rpar;. On GitHub, people can 
+                        work together on these projects, like adding new pages or editing existing ones, and everyone can see the changes. It's a way to organize, share, and 
+                        collaborate on projects online, even if you're not a tech expert.
+                    </p>
                     <br>
                     <div class="callout">
                         <span class="emoji">&#x1F3C1;</span>
@@ -242,7 +236,11 @@
                     <h3>What are Commits?</h3>
                     <br>
                     <p>
-                        explain here
+                        Think of a commit on GitHub as a bookmark in a notebook. When you make changes to your project 
+                        &lpar;like writing or editing pages in the notebook&rpar;, a commit marks exactly what changes you made at that moment. 
+                        It's like saying, "Here's what I added or changed on this page today." This bookmark helps you and others see 
+                        the history of changes made over time. It's a way of keeping track of all the small or big updates you make, 
+                        like a diary entry for your project, making it easy to understand how the project has evolved.
                     </p>
                     <br>
                     <h3>How to Commit in <span class="vs_color">VS</span></h3>
@@ -265,7 +263,19 @@
                 <div class="topic_body">
                     <h3>What is a Push?</h3>
                     <br>
-                    <p>explain</p>
+                    <p>
+                        Imagine you've made a bunch of changes in a scrapbook at home &lpar;this is like editing files in a local repository on your computer&rpar;. 
+                        "Pushing" these changes to a remote repository, like GitHub, is like sending photocopies of your updated scrapbook pages to a public 
+                        library. This way, your updated pages are available in the library for others to see and use &lpar;the GitHub repository&rpar;. So, pushing is 
+                        essentially the act of sharing your local updates with the wider world on the internet, making your latest work accessible to others 
+                        and ensuring that the public library &lpar;GitHub&rpar; has the most current version of your project.
+                    </p>
+                    <br>
+                    <p>
+                        This might sound similar to commits, but they are still very different. If commits note what the changes are on your local repository, then pushing those changes
+                        is basically sending the commit&lpar;s&rpar; to the remote repository. The message you leave in a commit is even more necessary here since other collaborators need to
+                        know about the changes you made.
+                    </p>
                     <br>
                     <h3>How to Push Changes in VS</h3>
                     <br>
@@ -291,22 +301,22 @@
                     <h2>Pull Requests</h2>
                 </div>
                 <div class="topic_body">
-                    <iframe src="https://www.youtube.com/embed/For9VtrQx58?si=MDGapKy-uK6dCo6W"></iframe>
-                    <br>
                     <h3>My thoughts on Pull Requests</h3>
                     <br>
                     <p>
-                        I start this with 'my thoughts' because pull requests can be a bit confusing to understand their place in development. From my understanding, means that you are 
-                        submitting some code that you have created in a separate branch from the main(default). This is meant to either garner feedback on your code or to try and have 
-                        your code contributed to a project that you do not own. This is great for collaboration and revisement because it opens up an environment for discussion, one 
-                        where people can give feedback and build on your work. It also is a safegaurd for version control and file integrity, 
-                        as pull requests are a prerequisite to implementation.
+                        A pull request on GitHub is like putting a suggestion box in a community center. Imagine you've made some great changes or improvements to a project 
+                        you found at the center &lpar;like a shared recipe book&rpar;. Instead of just replacing the original, you put your suggestions &lpar;your updated pages&rpar; in the 
+                        suggestion box. This is your pull request. It's a way of saying, "Hey, I made some changes I think are good, can we add them to the original project?" 
+                        The community &lpar;or project owners&rpar; can then review your suggestions, discuss them, and decide whether to incorporate them into the main project. It's a 
+                        collaborative and respectful way of contributing improvements to a shared project.
                     </p>
                     <br>
                     <div class="callout">
                         <span class="emoji">&#128161;</span>
                         <p>To create pull requests in VS Code, you need to install the extension <span class="green_type">GitHub Pull Requests and Issues</span>.</p>
                     </div>
+                    <br>
+                    <iframe src="https://www.youtube.com/embed/For9VtrQx58?si=MDGapKy-uK6dCo6W"></iframe>
                 </div>
             </section>
 
@@ -316,6 +326,14 @@
                     <h2><span class="gh_color">Github</span> Pages</h2>
                 </div>
                 <div class="topic_body">
+                    <h3>What is Github Pages?</h3>
+                    <br>
+                    <p>
+                        GitHub Pages is a service provided by GitHub that allows you to host a website directly from your GitHub repository, making it an excellent choice for deploying a website. 
+                        It's especially beneficial because it's free, easy to set up, and integrates seamlessly with Git version control. This means you can update your website simply by pushing 
+                        updates to your repository. GitHub Pages is ideal for personal, project, or documentation websites, as it supports static site generators like Jekyll for more complex projects. 
+                        Its simplicity and integration with GitHub's ecosystem make it a popular choice for developers looking to quickly and efficiently publish their work online.
+                    </p>
                     <div class="callout">
                         <span class="emoji">&#128680;</span>
                         <p>
@@ -325,11 +343,6 @@
                     <br>
                     <iframe src="https://www.youtube.com/embed/OltY8JIaP-4?si=pWHnSFeP2uSVl6m3"></iframe>
                     <br>
-                    <h3>Why use Github Pages?</h3>
-                    <br>
-                    <p>
-                        explain
-                    </p>
                 </div>
             </section>
 

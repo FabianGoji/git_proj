@@ -211,13 +211,16 @@ hr{
 
 /* for any element that needs a full-width div or section */
 .wide_block{
-    width: 100%;
-    padding: 10vh 10vw;
-    text-align: center;
-}
-
-.wide_block h2{
-    margin: 5vh auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-self: flex-start;
+    width: 90%;
+    text-align: left;
+    margin: 10vh auto;
+    h1{
+        text-decoration: underline rgb(255, 36, 109);
+        text-underline-offset: 6px;
+    }
 }
 
 /* for containing elements regarding the same topic */
@@ -291,10 +294,6 @@ hr{
         color: rgb(51, 54, 53, .8);
     }
 }
-
-/* .callout .numbered_steps{
-    margin: auto 1.5vw;
-} */
 
 iframe{
     border-style: none;

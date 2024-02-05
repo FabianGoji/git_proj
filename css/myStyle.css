@@ -167,9 +167,10 @@ hr{
     width: 90%;
     height: auto;
     margin: 3vh auto;
-    h3{
-        color: rgb(255, 36, 109);
-    }
+    /* h3{
+        text-decoration: underline rgb(255, 36, 109);
+        text-underline-offset: 4px;
+    } */
 }
 
 .toc_container{
@@ -198,7 +199,7 @@ hr{
     border-left: solid 4px rgb(255, 36, 109);
     h3{
         font-size: 1.25em;
-        font-weight: 400;
+        font-weight: 300;
         margin-left: 1vw;
     }
 }

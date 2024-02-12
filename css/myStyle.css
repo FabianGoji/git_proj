@@ -136,17 +136,31 @@ hr{
     height: auto;
 }
 
-/* for section that will not scroll */
+.static_col, .scroll_col{
+    overflow-y: auto;
+}
+
+/* styling for scroll and static section containers */
 .static_col{
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-content: center;
+    align-self: flex-start;
     position: sticky;
     top: 15vh;
     width: 25%;
-    height: 85vh;
+    height: auto;
     border-right: solid 3px rgba(74, 74, 74, 0.8);
+}
+
+.scroll_col{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    height: auto;
 }
 
 /* stling for static side */
@@ -217,15 +231,6 @@ hr{
 
 
 /* for section that will scroll */
-.scroll_col{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-content: center;
-    width: 75%;
-    height: auto;
-}
-
 
 
 /* for any element that needs a full-width div or section */
